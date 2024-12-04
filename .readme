@@ -1,11 +1,3 @@
-sudo docker compose build 
-sudo docker compose up -d
-sudo docker-compose down 
-sudo docker logs spark-driver-app
-sudo docker compose stop
-sudo docker compose start
-sudo docker compose restart
-sudo docker compose down
-sudo docker compose rm
-sudo docker compose logs
-sudo docker compose down -v --rmi all
+first unzip the data zipfile to unlock the csv's, if some issues occur please download the dataset: import kaggle !kaggle datasets download -d davidcariboo/player-scores --unzip -p ./data 
+
+if this does not work download manually https://www.kaggle.com/datasets/davidcariboo/player-scores
